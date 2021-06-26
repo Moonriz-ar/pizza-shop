@@ -1,0 +1,184 @@
+/* RESET */
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* BASE */
+body {
+	font-family: 'Roboto', sans-serif;
+	color:#F3F3F3;
+}
+
+main {
+	background-color: #E5E5E5;
+}
+
+body h2,
+main {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: #F3F3F3;
+}
+
+/* HEADER */
+header {
+	background-color: #222222;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+header .logo {
+	display: flex;
+	align-items: center;
+}
+
+header h2 {
+	padding: 0 0 0 1rem;
+}
+
+header nav {
+	display: flex;
+}
+
+header nav ul {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+}
+
+header nav li {
+	padding: 0 0 0 1rem;
+}
+
+.logo-green {
+	color:#39B24A;
+}
+
+.logo-red {
+	color: #FC200C;
+}
+
+/* MAIN */
+body {
+	position: relative;
+	min-height: 100vh;
+}
+
+main {
+	padding-bottom: 150px;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	padding: 5rem 1rem;
+	color: black;
+}
+
+section h3 {
+	color: red;
+}
+
+section .card{
+	width: 490px;
+	height: 350px;
+	margin: 0 2.5rem;
+	border-radius: 5px;
+}
+
+/* HERO CARD */
+
+.hero {
+	background-image: url('/img/deliveryhero-img.png');
+	position: relative;
+}
+
+.hero span {
+	color: #F3F3F3;
+}
+
+.ranking li {
+	font-size: 16px;
+}
+
+.hero h3 {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+	/* PIZZA RANKING CARD */
+
+.podio {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+}
+
+.ranking {
+	display: flex;
+	align-items: center;
+}
+
+.ranking h4 {
+	padding: 0 0 1rem 0;
+}
+
+.ranking li {
+	font-size: 16px;
+	padding: 0.5rem 0 0 0;
+}
+
+.ranking img {
+	padding: 0 0 0 5rem;
+}
+
+/* FOOTER */
+footer {
+	background-color: #222222;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	position: absolute;
+	bottom: 0;
+	height: 150px;
+	width: 100%;
+}
+
+footer .logo {
+	display: flex;
+	align-items: center;
+}
+
+footer h2 {
+	padding: 0 0 0 1rem;
+}
+
+footer nav {
+	display: flex;
+}
+
+footer nav ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+	justify-content: center;
+}
+
+footer nav li {
+	padding: 0.5rem 0 0 0;
+}
